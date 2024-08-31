@@ -14,7 +14,7 @@ provider "aws" {
 
 #creating bucket
 resource "aws_s3_bucket"  "this_sb" {
-        bucket = "swapnil chutiya"
+        bucket = "swapnil_chutiya"
         object_lock_enabled = true
         force_destroy = true
         tags = {
